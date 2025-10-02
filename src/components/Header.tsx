@@ -44,7 +44,7 @@ const Header = ({ onLoginClick }: HeaderProps) => {
             className="flex items-center gap-2 group"
           >
             <div className="w-10 h-10 group-hover:shadow-glow transition-all duration-300">
-              <h1 className="text-5xl font-bold">Home</h1>
+              <h1 className="text-5xl font-bold">HOME</h1>
             </div>
           </button>
 

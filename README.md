@@ -12,10 +12,10 @@ git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 
 # Step 3: Install the necessary dependencies.
-npm i
+bun i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+bun run dev
 ```
 
 **Edit a file directly in GitHub**
@@ -41,3 +41,48 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+## Running Tests
+
+Run the test suite:
+
+```bash
+bun test
+```
+
+Run tests in watch mode:
+
+```bash
+bun test -- --watch
+```
+
+Run tests with coverage:
+
+```bash
+bun test -- --coverage
+```
+
+## Project Structure
+
+```
+src/
+├── components/        # Reusable React components
+│   ├── ui/           # shadcn/ui components
+│   ├── __tests__/    # Component tests
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Pricing.tsx
+│   ├── Contact.tsx
+│   ├── Footer.tsx
+│   └── LoginDialog.tsx
+├── pages/            # Page components
+│   ├── __tests__/    # Page tests
+│   ├── Index.tsx
+│   └── NotFound.tsx
+├── test/             # Test utilities
+│   └── setup.ts
+├── assets/           # Static assets
+├── hooks/            # Custom React hooks
+└── lib/              # Utility functions
+```

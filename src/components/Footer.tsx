@@ -11,9 +11,6 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-primary p-2">
-                <img src={logoIcon} alt="ERP" className="w-full h-full object-contain" />
-              </div>
               <span className="text-xl font-bold">ERP</span>
             </div>
             <p className="text-background/80 text-sm">
@@ -50,7 +47,7 @@ const Footer = () => {
 
           {/* ERP */}
           <div>
-            <h3 className="font-semibold mb-4">ERP</h3>
+            <h3 className="font-semibold mb-4">Navigations</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#about" className="text-background/80 hover:text-background transition-colors">

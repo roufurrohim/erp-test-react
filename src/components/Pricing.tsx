@@ -26,7 +26,7 @@ const Pricing = () => {
       features: [
         "Record incoming and outgoing items",
         "Record profits",
-        "Analyze sales results with charts",
+        "Analyze sales results with charts business",
         "Advanced reporting",
         "24/7 Support",
         "Priority assistance"
@@ -40,7 +40,7 @@ const Pricing = () => {
       description: "For serious growth",
       features: [
         "All Business features",
-        "Analyze sales results with charts",
+        "Analyze sales results with charts entrepreneur",
         "24/7 Premium Support",
         "Export data to Excel",
         "AI-based income prediction",
